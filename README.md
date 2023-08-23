@@ -25,14 +25,17 @@ In the same directory, I can created another Python file to run the game using t
 Second module named "game.py"
 
 # To run the code, follow these steps:
-Download the code or Save it locally
 
 1. Open a Git Bash terminal or command prompt.
-2. Navigate to the directory where you saved the files using the cd command.
-3. Run the game by executing the following command:
+2. Checkout the code from git repo
+   git clone https://github.com/satyakaibm/monster_game.git
+   
+3. Navigate to the directory
+4. Ensure python is installed locally in your laptop or machine
+5. Run the game by executing the following command:
    
    python game.py
 
-The game will start, and you'll see the game instructions. Follow the instructions to interact with the game using the commands 
+6.Follow the instructions to interact with the game using the commands 
 "orc" or "dragon".
 
