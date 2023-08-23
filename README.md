@@ -28,11 +28,12 @@ Second module named "game.py"
 
 1. Open a Git Bash terminal or command prompt.
 2. Checkout the code from git repo
+
    git clone https://github.com/satyakaibm/monster_game.git
    
-3. Navigate to the directory
-4. Ensure python is installed locally in your laptop or machine
-5. Run the game by executing the following command:
+4. Navigate to the directory
+5. Ensure python is installed locally in your laptop or machine
+6. Run the game by executing the following command:
    
    python game.py
 
