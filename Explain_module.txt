@@ -1,0 +1,31 @@
+**Module: game_entities.py**
+-----------------------------
+Imagine we're designing the pieces for a board game. 
+
+This module is like creating the different types of game pieces I've used on the board. 
+I have designed three main types of pieces here: a Hero, an Orc, and a Dragon. 
+Each piece has its own special powers and health. 
+
+Think of the Hero as the main character I controlled. 
+The Orc and Dragon are the bad guys I need to defeat. These pieces can attack each other, and they can also get hurt. 
+For example, if the Orc gets hit, it loses some of its health.
+
+This module is like making the different game characters and giving them abilities so that they can interact and fight with each other in the game.
+
+
+
+
+**Module: game.py**
+--------------------
+Now, let's put those game pieces to use on the game board. 
+This module is like the actual game board where all the action happens. 
+Imagine we're playing a game on a table, and we have your game pieces in front of us.
+
+In this game, I have controlled the Hero. 
+I can tell the Hero to attack the Orc or the Dragon. 
+When I type in the command, like "orc," and the Hero will follow the orders and I keep playing, making decisions and watching the game unfold.
+
+But be careful! If the Hero gets too hurt, you might lose the game. And if you defeat the Orc and Dragon, you win the game.
+
+So, Module 1 makes the game pieces, and Module 2 is where you actually play the game using those pieces. 
+It's like creating the game rules and then playing by those rules.
