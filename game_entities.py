@@ -15,7 +15,7 @@ class Character:
     def receive_damage(self, attacker_name, damage):
         with self.lock:
             self.health = max(self.health - damage, 0)
-            print(f"{attacker_name.capitalize()} hits {self.name.capitalize()}. {self.name.capitalize()} health is {self.health}")
+            print(f"{attacker_name.capitalize()} hits {self.name}. {self.name.capitalize()} health is {self.health}")
             if self.health == 0:
                 self.alive = False
                 print(f"{self.name.capitalize()} is defeated!")
@@ -34,11 +34,6 @@ class Monster(Character):
             if self.alive:
                 if hero.alive:
                     self.attack(hero)
-                elif orc.alive:
-                    self.attack(orc)
-                elif dragon.alive:
-                    self.attack(dragon)
-                
 
 class Hero(Character):
     def __init__(self, name, health):
@@ -46,4 +41,4 @@ class Hero(Character):
 
 hero = Hero("hero", health=40)
 orc = Monster("orc", health=7, attack_interval=1.5, attack_damage=1)
-dragon = Monster("dragon", health=10, attack_interval=2, attack_damage=3)
+dragon = Monster("dragon", health=20, attack_interval=2, attack_damage=3)

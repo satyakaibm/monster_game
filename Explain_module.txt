@@ -10,7 +10,8 @@ Think of the Hero as the main character I controlled.
 The Orc and Dragon are the bad guys I need to defeat. These pieces can attack each other, and they can also get hurt. 
 For example, if the Orc gets hit, it loses some of its health.
 
-This module is like making the different game characters and giving them abilities so that they can interact and fight with each other in the game.
+This module is like making the different game characters and giving them abilities so that they can interact and 
+fight with each other in the game.
 
 
 
@@ -23,7 +24,8 @@ Imagine we're playing a game on a table, and we have your game pieces in front o
 
 In this game, I have controlled the Hero. 
 I can tell the Hero to attack the Orc or the Dragon. 
-When I type in the command, like "orc," and the Hero will follow the orders and I keep playing, making decisions and watching the game unfold.
+When I type in the command, like "attack orc," and the Hero will follow the orders and I keep playing, 
+making decisions and watching the game unfold.
 
 But be careful! If the Hero gets too hurt, you might lose the game. And if you defeat the Orc and Dragon, you win the game.
 
