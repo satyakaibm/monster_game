@@ -25,7 +25,6 @@ In the same directory, I have created another Python file to run the game using 
 The second module named "game.py"
 
 # To run the code, follow these steps:
-
 1. Open a Git Bash terminal or command prompt.
 2. Checkout the code from git repo
 
@@ -38,5 +37,10 @@ The second module named "game.py"
    python game.py
 
 6. Follow the instructions to interact with the game using the commands 
-"orc" or "dragon".
+"attack orc" or "attack dragon".
 
+
+# Unittest
+Run the Unittest test_game_entity.py to check whether the hero or monster entities can correctly receive damage and adjust their health accordingly.
+
+   python test_game_entity.py
