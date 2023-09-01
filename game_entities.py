@@ -27,7 +27,8 @@ class Monster(Character):
         self.thread = threading.Thread(target=self.attack_loop)
         self.thread.daemon = True
         self.thread.start()
-
+        
+    # Update the logic of attack_loop
     def attack_loop(self):
         while self.alive:
             time.sleep(self.attack_interval)
